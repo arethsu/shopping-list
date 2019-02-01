@@ -1,0 +1,16 @@
+{
+  "name": "shopping-list",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "istanbul cover _mocha test/back_spec.js"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^3.1.0",
+    "mongodb": "^2.2.10",
+    "shallow-equals": "0.0.0",
+    "superagent": "^2.3.0"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Messages</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-md-offset-3">
+                <div class="alert alert-danger hide" id="error">
+                    Error! Message was either empty or too long!
+                </div>
+                <form class="form-inline" id="new-message">
+                    <div class="form-group">
+                        <label for="input-text">Message</label>
+                        <input id="input-text" type="text" class="form-control" placeholder="Write an extremely convoluted message here...">
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row messages"></div>
+    </div>
+
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
